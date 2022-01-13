@@ -1,0 +1,64 @@
+.collaborateur {
+    background-color: lightgrey;
+ border-radius: 30px;
+ padding: 2%;
+ margin: 2%;
+ display: inline-block;
+ width : 40%;
+}
+
+.donnees-perso {
+ margin: 5% 0% 5% 0%;
+}
+
+.langues {
+ margin: 5% 0% 5% 0%;
+}
+
+.parcours-pro {
+ margin: 5% 0% 5% 0%;
+}
+
+.poste {
+ margin: 5% 0% 5% 0%;
+}
+
+.formations {
+ margin: 5% 0% 5% 0%;
+}
+
+h1 {
+color: black;
+font-family: Poppins, Helvetica, sans-serif;
+text-align: center;
+font-size: clamp(40px, 4em, 80px);
+}
+
+h2 {
+color: black;
+font-family: Poppins, Helvetica, sans-serif;
+text-align: center;
+font-size: clamp(30px, 2.5em, 40px);
+}
+
+h3 {
+color: black;
+font-family: Poppins, Helvetica, sans-serif;
+text-align: center;
+font-size: clamp(20px, 1.5em, 30px);
+margin-top: 7%;
+}
+
+p {
+color: black;
+font-family: Poppins, Helvetica, sans-serif;
+text-align: center;
+font-size: clamp(14px, 1em, 18px);
+}
+
+address {
+color: black;
+font-family: Poppins, Helvetica, sans-serif;
+text-align: center;
+font-size: clamp(14px, 1em, 18px);
+}
