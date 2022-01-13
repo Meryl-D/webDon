@@ -1,10 +1,19 @@
+.collaborateurs {
+    display: flex;
+    margin: 2%;
+    
+}
+
 .collaborateur {
  background-color: lightgrey;
  border-radius: 30px;
  padding: 2%;
- margin: 2%;
  display: inline-block;
- width : 40%;
+ width : 45%;
+}
+
+.collaborateur-gauche {
+    margin-right: 2%; 
 }
 
 .donnees-perso {
