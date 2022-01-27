@@ -21,9 +21,33 @@
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#occupe -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aAcheve -->
 
-    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#occupe"/>
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aAcheve"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aEffectue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aEffectue"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estPourvuDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estPourvuDe"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#habiteA -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#habiteA"/>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#sAppelle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#sAppelle"/>
     
 
 
@@ -38,143 +62,87 @@
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Age -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNPA -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Age">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNPA"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Emploi -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNiveau -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Emploi">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNiveau"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Employeur -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNumero -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Employeur">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aNumero"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Langue -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aVille -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Langue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aVille"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Lieu -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#comprend -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Lieu">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Formation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#comprend"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NPA -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estAgeDe -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NPA">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estAgeDe"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Niveau -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estBaseChez -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Niveau">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estBaseChez"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Nom -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estConstitueDe -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Nom">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estConstitueDe"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Numero -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#inclue -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Numero">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#inclue"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Poste -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#occupe -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Poste">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#occupe"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Prenom -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#possede -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Prenom">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#possede"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Rue -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#seDeroule -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Rue">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#seDeroule"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Titre -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#seNomme -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Titre">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Formation"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#seNomme"/>
     
 
 
-    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Ville -->
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#sePrenomme -->
 
-    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Ville">
-        <rdfs:domain rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-    </owl:DatatypeProperty>
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#sePrenomme"/>
     
 
 
@@ -197,7 +165,38 @@
 
     <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aAcheve"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Formation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#aEffectue"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#estPourvuDe"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#habiteA"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#sAppelle"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
     
 
 
@@ -222,6 +221,299 @@
     <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseAdriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseAdriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdrianaMota"/>
+        <aNPA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1400</aNPA>
+        <aNumero>35b</aNumero>
+        <aVille>Yverdon-les-Bains</aVille>
+        <estConstitueDe>Chemin des Sources</estConstitueDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseHeloise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseHeloise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#HeloiseCuche"/>
+        <aNPA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2300</aNPA>
+        <aNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</aNumero>
+        <aVille>La Chaux-de-Fonds</aVille>
+        <estConstitueDe>Rue du Chasseron</estConstitueDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseJasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseJasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#JasmineMolano"/>
+        <aNPA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000</aNPA>
+        <aNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</aNumero>
+        <aVille>Neuchatel</aVille>
+        <estConstitueDe>Rue de l&apos;Ecluse</estConstitueDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseMeryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdresseMeryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Adresse"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#MerylDubois"/>
+        <aNPA rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2516</aNPA>
+        <aNumero rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</aNumero>
+        <aVille>Lamboing</aVille>
+        <estConstitueDe>Les Neuves</estConstitueDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdrianaMota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdrianaMota">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProAdriana"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteAdriana"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#24"/>
+        <seNomme>Mota</seNomme>
+        <sePrenomme>Adriana</sePrenomme>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesAdriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesAdriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
+        <estPourvuDe rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#AdrianaMota"/>
+        <aNiveau>B2</aNiveau>
+        <aNiveau>Langue maternelle</aNiveau>
+        <aNiveau>Seconde langue</aNiveau>
+        <inclue>Anglais</inclue>
+        <inclue>Français</inclue>
+        <inclue>Portugais</inclue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesJasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesJasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#JasmineMolano"/>
+        <aNiveau>A2</aNiveau>
+        <aNiveau>C1</aNiveau>
+        <aNiveau>Langue maternelle</aNiveau>
+        <aNiveau>Seconde Langue</aNiveau>
+        <inclue>Allemand</inclue>
+        <inclue>Anglais</inclue>
+        <inclue>Français</inclue>
+        <inclue>Portugais</inclue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesMeryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiquesMeryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#CompetencesLinguistiques"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#MerylDubois"/>
+        <aNiveau>B1</aNiveau>
+        <aNiveau>C1</aNiveau>
+        <aNiveau>Langue maternelle</aNiveau>
+        <inclue>Allemand</inclue>
+        <inclue>Anglais</inclue>
+        <inclue>Français</inclue>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#FormationMeryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#FormationMeryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Formation"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#MerylDubois"/>
+        <possede>CFC de graphiste</possede>
+        <possede>Ingénieure des médias</possede>
+        <seDeroule>EAA</seDeroule>
+        <seDeroule>HEIG-VD</seDeroule>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#HeloiseCuche -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#HeloiseCuche">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProHeloise"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteHeloise"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#21"/>
+        <seNomme>Cuche</seNomme>
+        <sePrenomme>Heloise</sePrenomme>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#JasmineMolano -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#JasmineMolano">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProJasmine"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteJasmine"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#12"/>
+        <seNomme>Molano</seNomme>
+        <sePrenomme>Jasmine</sePrenomme>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#MerylDubois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#MerylDubois">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#NomComplet"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProMeryl"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteMeryl"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#27"/>
+        <seNomme>Dubois</seNomme>
+        <sePrenomme>Meryl</sePrenomme>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProAdriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProAdriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+        <comprend>Stage de diplôme</comprend>
+        <estBaseChez>Police neuchâteloise</estBaseChez>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProHeloise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProHeloise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+        <comprend>Serveuse</comprend>
+        <comprend>Service de place</comprend>
+        <estBaseChez>Commune de la Chaux-de-Fonds</estBaseChez>
+        <estBaseChez>Piscine de la Chaux-de-Fonds</estBaseChez>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProJasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProJasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+        <comprend>Assistante designer</comprend>
+        <comprend>Auteur du LMDSP</comprend>
+        <estBaseChez>Automatico Studio</estBaseChez>
+        <estBaseChez>Le Cric Edition</estBaseChez>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProMeryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProMeryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#ParcoursProfessionnel"/>
+        <comprend>Stage de diplome</comprend>
+        <comprend>Stage en graphisme</comprend>
+        <estBaseChez>Agence Neue</estBaseChez>
+        <estBaseChez>Le Grand 8</estBaseChez>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteAdriana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteAdriana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <occupe>Management</occupe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteHeloise -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteHeloise">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <occupe>Community manager</occupe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteJasmine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteJasmine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <occupe>UX/UI designer</occupe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteMeryl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#PosteMeryl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <occupe>Creative developper</occupe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <estAgeDe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</estAgeDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <estAgeDe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</estAgeDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <estAgeDe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</estAgeDe>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#27 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#27">
+        <rdf:type rdf:resource="http://www.semanticweb.org/adriana/ontologies/2022/0/untitled-ontology-8#Collaborateur"/>
+        <estAgeDe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">27</estAgeDe>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
