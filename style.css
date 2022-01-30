@@ -58,7 +58,7 @@ font-size: clamp(20px, 1.5em, 30px);
 margin-top: 7%;
 }
 
-p, .vcard {
+p, div, .vcard {
 color: black;
 font-family: Poppins, Helvetica, sans-serif;
 text-align: center;
